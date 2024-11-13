@@ -14,3 +14,5 @@ DELETE FROM datos_conversion;
 ALTER SEQUENCE datos_conversion_id_seq RESTART WITH 1;
 
 select * from datos_conversion
+select audio_binario,velocidad,volumen from datos_conversion where id = 1
+SELECT audio_binario,velocidad,volumen FROM datos_conversion where id = 8
